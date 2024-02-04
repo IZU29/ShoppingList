@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    /* border: 1px solid green; */
+    background: linear-gradient(to right, rgb(35, 27, 105) , rgb(0, 10, 66));
+}
+#list-box{
+    margin-top: 10px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+}
+h4{
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+#search{
+    display: flex;
+    width: 100%;
+}
+#search input{
+    width: 85%;
+    height: 30px;
+}
+#search button{
+    width: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#item-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    /* padding: 16px; */
+    /* border: 1px solid black; */
+    height: 60px;
+}
+#item-box input{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#item-box p{
+    font-size: 30px;
+    font-family: sans-serif;
+    /* margin-left: 20px; */
+}
+#item-box button{
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    /* margin: autos; */
+}
